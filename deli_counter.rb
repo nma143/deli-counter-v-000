@@ -4,7 +4,8 @@ def line(katz_deli)
   msg="The line is currently:"
   katz_deli.each_with_index do |name, index|
     msg = msg + "#{index + 1}. #{name} "
-  
+  end
+  puts msg
 end
 
 def take_a_number(katz_deli, name)
