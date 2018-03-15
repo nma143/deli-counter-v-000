@@ -3,7 +3,7 @@ def line(katz_deli)
   if katz_deli.length > 0
     msg="The line is currently:"
     katz_deli.each_with_index do |name, index|
-      msg = msg + "#{index + 1}. #{name} "
+      msg = msg + " #{index + 1}. #{name}"
     end
     puts msg
   else
